@@ -89,7 +89,6 @@ def trainRouteClient():
         return Response("Error Occurred! %s" % ValueError)
 
     except KeyError:
-
         return Response("Error Occurred! %s" % KeyError)
     except Exception as e:
         return Response("Error Occurred! %s" % e)
